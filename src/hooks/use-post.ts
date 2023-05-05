@@ -21,5 +21,12 @@ export const usePost = (postId: number) => {
             )
             return data as Data
         },
+        // Dealing with errors
+        onSuccess(data) {
+
+        },
+        onError(error) {
+
+        },
     })
 };
